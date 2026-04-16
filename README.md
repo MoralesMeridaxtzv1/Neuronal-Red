@@ -1,94 +1,94 @@
-# # 🧠 Neural AI Visualizer — 3D Knowledge Graph
+# # 🧠 Visualizador de IA Neuronal — Grafo de Conocimiento 3D
 
-A powerful web-based tool for visualizing neural networks and knowledge graphs in interactive 3D environments. Built with modern web technologies to provide intuitive exploration of complex AI models and data relationships.
+Una herramienta web poderosa para visualizar redes neuronales y grafos de conocimiento en entornos 3D interactivos. Construida con tecnologías web modernas para proporcionar una exploración intuitiva de modelos de IA complejos y relaciones de datos.
 
-## ✨ Features
+## ✨ Características
 
-- **3D Visualization**: Interactive 3D rendering of neural networks and knowledge graphs
-- **Real-time Exploration**: Dynamic navigation through nodes and connections
-- **Customizable Views**: Multiple visualization modes and styling options
-- **Web-Based**: No installation required, runs directly in your browser
-- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Visualización 3D**: Renderizado 3D interactivo de redes neuronales y grafos de conocimiento
+- **Exploración en Tiempo Real**: Navegación dinámica a través de nodos y conexiones
+- **Vistas Personalizables**: Múltiples modos de visualización y opciones de estilo
+- **Basada en Web**: Sin instalación requerida, se ejecuta directamente en tu navegador
+- **Diseño Responsivo**: Funciona perfectamente en escritorio y dispositivos móviles
 
-## 🚀 Quick Start
+## 🚀 Inicio Rápido
 
-### Prerequisites
+### Prerrequisitos
 
-- Node.js (version 14 or higher)
-- npm or yarn
+- Node.js (versión 14 o superior)
+- npm o yarn
 
-### Installation
+### Instalación
 
-1. Clone the repository:
+1. Clona el repositorio:
    ```bash
    git clone https://github.com/MoralesMeridaxtzv1/Neuronal-Red.git
    cd neural-ai-viz
    ```
 
-2. Install dependencies:
+2. Instala las dependencias:
    ```bash
    npm install
    ```
 
-3. Start the development server:
+3. Inicia el servidor de desarrollo:
    ```bash
    npm start
    ```
 
-4. Open your browser and navigate to `http://localhost:3000`
+4. Abre tu navegador y navega a `http://localhost:3000`
 
-## 📖 Usage
+## 📖 Uso
 
-1. Upload your neural network model or knowledge graph data
-2. Select your preferred visualization mode
-3. Interact with the 3D graph:
-   - Click and drag to rotate the view
-   - Scroll to zoom in/out
-   - Hover over nodes for detailed information
-   - Click nodes to explore connections
+1. Sube tu modelo de red neuronal o datos de grafo de conocimiento
+2. Selecciona tu modo de visualización preferido
+3. Interactúa con el grafo 3D:
+   - Haz clic y arrastra para rotar la vista
+   - Desplaza para hacer zoom
+   - Pasa el mouse sobre los nodos para información detallada
+   - Haz clic en los nodos para explorar conexiones
 
-## 🛠️ Development
+## 🛠️ Desarrollo
 
-### Project Structure
+### Estructura del Proyecto
 
 ```
 neural-ai-viz/
-├── server.js          # Backend server
+├── server.js          # Servidor backend
 ├── public/
-│   ├── index.html     # Main HTML page
-│   └── script.js      # Frontend JavaScript
-├── package.json       # Project dependencies
-└── README.md          # This file
+│   ├── index.html     # Página HTML principal
+│   └── script.js      # JavaScript frontend
+├── package.json       # Dependencias del proyecto
+└── README.md          # Este archivo
 ```
 
-### Available Scripts
+### Scripts Disponibles
 
-- `npm start` - Start the development server
-- `npm test` - Run tests
-- `npm run build` - Build for production
+- `npm start` - Inicia el servidor de desarrollo
+- `npm test` - Ejecuta las pruebas
+- `npm run build` - Construye para producción
 
-## 🤝 Contributing
+## 🤝 Contribuyendo
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+¡Las contribuciones son bienvenidas! Siéntete libre de enviar un Pull Request.
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Haz fork del proyecto
+2. Crea tu rama de características (`git checkout -b feature/CaracteristicaIncreible`)
+3. Confirma tus cambios (`git commit -m 'Agrega alguna CaracteristicaIncreible'`)
+4. Empuja a la rama (`git push origin feature/CaracteristicaIncreible`)
+5. Abre un Pull Request
 
-## 📄 License
+## 📄 Licencia
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-## 📞 Contact
+## 📞 Contacto
 
-- **Author**: MoralesMeridaxtzv1
+- **Autor**: MoralesMeridaxtzv1
 - **GitHub**: [https://github.com/MoralesMeridaxtzv1/Neuronal-Red](https://github.com/MoralesMeridaxtzv1/Neuronal-Red)
 
 ---
 
-⭐ If you find this project helpful, please give it a star!
+⭐ ¡Si encuentras útil este proyecto, por favor dale una estrella!
 
 > Visualización 3D futurista de redes neuronales generadas por IA en tiempo real.
 
