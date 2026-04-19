@@ -717,7 +717,7 @@ class UIController {
 
       const data = await res.json();
 
-      this._modeBadge.textContent = data.mode === 'openai' ? '● GPT-4o-mini' : '● LOCAL';
+      this._modeBadge.textContent = data.mode === 'openai' ? '● GPT-4o-mini' : '● KASLEM';
       this._modeBadge.classList.toggle('live', data.mode === 'openai');
 
       this._graph.buildGraph({ nodes: data.nodes, edges: data.edges });
@@ -759,7 +759,7 @@ class UIController {
     this._kwPanel.classList.remove('visible');
     this._kwPanel.innerHTML = '';
     this._statsBar.classList.remove('visible');
-    this._modeBadge.textContent = '● DEMO';
+    this._modeBadge.textContent = '● KASLEM';
     this._modeBadge.classList.remove('live');
     this._setStatus('LISTO · Introduce un prompt para comenzar');
     this._statNodes.textContent = DEMO_NODES.length;
@@ -817,7 +817,7 @@ class App {
     document.getElementById('stat-nodes').textContent = DEMO_NODES.length;
     document.getElementById('stat-edges').textContent = DEMO_EDGES.length;
     document.getElementById('stats-bar').classList.add('visible');
-    document.getElementById('mode-badge').textContent = '● DEMO';
+    document.getElementById('mode-badge').textContent = '● KASLEM';
 
     // Raycaster
     this._raycaster  = new THREE.Raycaster();
